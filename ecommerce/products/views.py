@@ -10,6 +10,6 @@ def home(request):
 	else:
 			context = {"username_is":"AnonymousUser"}
 
-	template = 'base.html'
+	template = 'home.html'
 	
 	return render(request, template, context)
