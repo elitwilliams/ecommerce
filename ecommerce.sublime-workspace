@@ -1,0 +1,230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"a"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"l",
+				"l"
+			],
+			[
+				"prim",
+				"prime_factors"
+			],
+			[
+				"prime_fac",
+				"prime_factorization"
+			],
+			[
+				"num2",
+				"num2_factors"
+			],
+			[
+				"fac",
+				"factors"
+			],
+			[
+				"fib",
+				"fib_even"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/eliwilliams/projects/street-safe/src/data/data_50k.py",
+		"/Users/eliwilliams/projects/street-safe/src/data/data_10k.py",
+		"/Users/eliwilliams/projects/street-safe/src/data/data_7.py",
+		"/Users/eliwilliams/projects/street-safe/src/data/data.py",
+		"/Users/eliwilliams/projects/street-safe/src/data/latlng.html",
+		"/Users/eliwilliams/projects/street-safe/src/data/latlng2.html",
+		"/Users/eliwilliams/projects/street-safe/src/data/data.json",
+		"/Users/eliwilliams/projects/skillshare/static/templates/base.html",
+		"/Users/eliwilliams/projects/skillshare/src/mvp_landing/settings.py",
+		"/Users/eliwilliams/projects/CodeFlower-master/data.json",
+		"/Users/eliwilliams/Desktop/MySQL-python-1.2.4b4/README.md",
+		"/Users/eliwilliams/.Trash/zenburn.el",
+		"/usr/local/Cellar/emacs/24.3/INSTALL_RECEIPT.json",
+		"/Users/eliwilliams/projects/project-euler/11.py",
+		"/Users/eliwilliams/Documents/Project Euler/problem_9.py",
+		"/Users/eliwilliams/Documents/Project Euler/problem_8.py",
+		"/Users/eliwilliams/Documents/Project Euler/problem_7.py",
+		"/Users/eliwilliams/Documents/Project Euler/problem_6.py",
+		"/Users/eliwilliams/Documents/Project Euler/problem_5.py",
+		"/Users/eliwilliams/Documents/Project Euler/problem_4.py",
+		"/Users/eliwilliams/Documents/Project Euler/problem_3.py",
+		"/Users/eliwilliams/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/eliwilliams/Documents/Project Euler/problem_2.py",
+		"/Users/eliwilliams/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/eliwilliams/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/eliwilliams/Documents/problem_2.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"false",
+			"null",
+			"false",
+			"null",
+			"new google.maps.LatLng(0, 0)",
+			"false",
+			"null"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"False",
+			"0",
+			"False",
+			"0",
+			"",
+			"False",
+			"0"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ecommerce.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
