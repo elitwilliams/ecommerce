@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'products.views.home', name='home'),
     url(r'^products/$', 'products.views.all', name='products'),
+    url(r'^products/(?P<slug>[\w-]+)/$', 'products.views.single', name='single_product'),
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
