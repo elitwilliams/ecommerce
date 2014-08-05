@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Prod",
+				"ProductAdmin"
+			],
+			[
 				"a",
 				"a"
 			],
@@ -67,6 +71,17 @@
 	},
 	"file_history":
 	[
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/ecommerce/settings.py",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/templates/products/single.html",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/products/views.py",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/templates/products/all.html",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/templates/base.html",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/templates/navbar.html",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/ecommerce/urls.py",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/templates/products/home.html",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/products/templates/home.html",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/templates/home.html",
+		"/Users/eliwilliams/projects/ecommerce/ecommerce/ecommerce/__init__.py",
 		"/Users/eliwilliams/projects/street-safe/src/data/data_50k.py",
 		"/Users/eliwilliams/projects/street-safe/src/data/data_10k.py",
 		"/Users/eliwilliams/projects/street-safe/src/data/data_7.py",
@@ -152,7 +167,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -196,6 +211,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"templates/products/home.html"
+			]
 		],
 		"width": 0.0
 	},
@@ -219,7 +238,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,

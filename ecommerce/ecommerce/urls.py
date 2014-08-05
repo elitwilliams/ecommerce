@@ -7,8 +7,11 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'products.views.home', name='home'),
+    url(r'^s/$', 'products.views.search', name='search'),
     url(r'^products/$', 'products.views.all', name='products'),
     url(r'^products/(?P<slug>[\w-]+)/$', 'products.views.single', name='single_product'),
+    url(r'^cart/(?P<slug>[\w-]+)/$', 'carts.views.update_cart', name='update_cart'),
+    url(r'^cart/$', 'carts.views.view', name='cart'),
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),

@@ -1,6 +1,6 @@
 from django.shortcuts import render, Http404
 
-from .models import Product
+from .models import Product, ProductImage
 
 # Create your views here.
 
@@ -9,6 +9,20 @@ def home(request):
 	template = 'products/home.html'
 	context = {"products":products}
 
+	return render(request, template, context)
+
+def search(request):
+	try:
+		q = request.GET.get('q')
+	except:
+		q = None
+	if q:
+		products = Product.objects.filter(title__icontains=q)
+		context = {'query':q, 'products': products}
+		template = 'products/results.html'
+	else:
+		template = 'products/home.html'
+		context = {}
 	return render(request, template, context)
 
 def all(request):
@@ -20,7 +34,9 @@ def all(request):
 def single(request, slug):
 	try:		
 		product = Product.objects.get(slug=slug)
-		context = {'product': product}
+		# images = product.productimage_set.all()
+		images = ProductImage.objects.filter(product=product)
+		context = {'product': product, "images": images}
 		template = 'products/single.html'
 		return render(request, template, context)
 	except:
